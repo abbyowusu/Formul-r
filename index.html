@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon-redesign</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <img
+        class="icon"
+        src="bilder/amazon-icon.png"
+        alt="Amazon's ikon som innehåller svart text och en orange pil"
+      />
+      <form class="myForm" action="https://httpbin.org/anything" method="post">
+        <h1>Skapa konto</h1>
+        <div class="inputusername">
+          <label for="userName">Användarnamn</label>
+          <input
+            id="userName"
+            name="userName"
+            type="text"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <div class="inputMail">
+          <label for="mail">E-post</label>
+          <input
+            id="mail"
+            name="mail"
+            type="text"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <div class="inputPassword">
+          <label for="password">Lösenord</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            required
+            aria-required="true"
+          />
+          <p>Lösenordet måste vara minst 6 tecken.</p>
+        </div>
+        <div class="inputPassword">
+          <label for="password">Ange lösenord igen</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <div class="acceptterms">
+          <input
+            class="checkbox"
+            id="accept"
+            type="checkbox"
+            name="checkbox"
+            value="checkbox"
+          />
+          <label for="accept"
+            >Godkänner du Amazons villkor för användning och försäljning? Se vår
+            sekretesspolicy, vår policy för cookies och vår policy för
+            intressebaserade annonser.</label
+          >
+        </div>
+
+        <button class="btn" type="submit">Skapa ditt Amazon-konto</button>
+        <div class="signIn">
+          <p>Har du redan ett konto?</p>
+          <li><a href="">Logga in</a></li>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer">
+      <ul class="footer-links">
+        <li><a href="#">Villkor för användning och köp</a></li>
+        <li><a href="#">Integritetsmeddelande</a></li>
+        <li><a href="#">Hjälp</a></li>
+        <li><a href="#">Bolagsinformation</a></li>
+        <li><a href="#">Cookiemeddelande</a></li>
+        <li><a href="#">Meddelande om intressebaserade annonser</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
